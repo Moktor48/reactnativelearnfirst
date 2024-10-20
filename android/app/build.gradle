@@ -85,6 +85,9 @@ android {
 
     namespace 'com.anonymous.learning'
     defaultConfig {
+        manifestPlaceholders = [
+            appAuthRedirectScheme: 'com.googleusercontent.apps.754317985927-4rh0efaopou2uttb0kfcv32mddk8p5g6'
+        ]
         applicationId 'com.anonymous.learning'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
